@@ -4,7 +4,7 @@
 
     <groupId>webapp.com.project</groupId>
     <artifactId>projectweb</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0</version>
     <packaging>war</packaging>
 
     <name>Java EE 6 webapp project</name>
