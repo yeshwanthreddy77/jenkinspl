@@ -1,3 +1,5 @@
+pipeline 
+{
 agent any
 {
   
@@ -9,5 +11,6 @@ stage 'build'{
      }
      stash excludes: 'target/', includes: '**', name: 'source'
 	 }
+}
 }
 }
