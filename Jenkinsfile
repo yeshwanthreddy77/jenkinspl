@@ -1,8 +1,6 @@
-pipeline 
+pipeline
 {
-agent any
-{
-  
+ node('slave')
 stages{
 stage 'build'{
    git url: 'https://github.com/jayanthich/jenkinspl.git'
@@ -11,6 +9,5 @@ stage 'build'{
      }
      stash excludes: 'target/', includes: '**', name: 'source'
 	 }
-}
 }
 }
