@@ -1,7 +1,5 @@
-pipeline {
-    node ('slave')
-
-    stages {
+node ('slave')
+     stages {
         stage('Build') {
             steps {
                 echo 'Building..'
@@ -18,4 +16,3 @@ pipeline {
             }
         }
     }
-}
