@@ -1,4 +1,5 @@
-node {
+node('slave')
+{
     stage('Example') {
         try {
             sh 'exit 1'
